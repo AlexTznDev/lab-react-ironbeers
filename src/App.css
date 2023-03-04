@@ -40,3 +40,10 @@ nav {
   display: grid;
   justify-items: start
 }
+
+.containerBeerDetail{
+  width: 20rem;
+  padding: 3rem 2rem;
+  border: .5px solid rgba(128, 128, 128, 0.133);
+  
+}

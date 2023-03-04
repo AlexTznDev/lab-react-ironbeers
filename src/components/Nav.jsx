@@ -1,7 +1,7 @@
 function Nav() {
   return (
     <div>
-      <nav><i class="fa-solid fa-house"></i></nav>
+      <nav>navbar</nav>
     </div>
   );
 }
