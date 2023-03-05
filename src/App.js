@@ -6,6 +6,7 @@ import RandomBeer from "./components/RandomBeer";
 
 import Home from "./components/Home";
 import DetailsBeer from "./components/DetailsBeer";
+import AllBeersContext from "./components/AllBeersContext";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/new-beer" element={<AddNewBeer />} />
         <Route path="/beers" element={<AllBeers />} />
         <Route path="/beers/:id" element={<DetailsBeer />} />
+        <Route path="/beersContext" element={<AllBeersContext />} />
       </Routes>
 
     </div>
